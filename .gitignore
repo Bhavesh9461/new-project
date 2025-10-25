@@ -1,0 +1,103 @@
+# =====================================================
+# GLOBAL / ROOT
+# =====================================================
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Environment files (keep only sample versions in repo)
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build / Output
+dist/
+build/
+out/
+coverage/
+.tmp/
+
+# Cache
+.cache/
+.nyc_output/
+.eslintcache
+.stylelintcache
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.iml
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Package manager logs
+yarn-error.log
+npm-debug.log
+pnpm-debug.log
+
+# =====================================================
+# SERVER
+# =====================================================
+/server/node_modules/
+/server/dist/
+/server/build/
+/server/coverage/
+/server/logs/
+/server/tmp/
+/server/.env
+/server/.env.local
+
+# =====================================================
+# CLIENT
+# =====================================================
+/client/node_modules/
+/client/dist/
+/client/build/
+/client/coverage/
+/client/.env
+/client/.env.local
+
+# Framework-specific (React, Next.js, Nuxt, etc.)
+/client/.next/
+/client/.nuxt/
+/client/.expo/
+/client/.parcel-cache/
+
+# =====================================================
+# DOCKER / DEPLOYMENT (optional)
+# =====================================================
+/docker-compose.override.yml
+/docker-data/
+/volumes/
+/*.pid
+
+# =====================================================
+# LOCAL DEVELOPMENT
+# =====================================================
+# Ignore personal config files used by devs
+*.local
+*.secret
+*.pem
+*.crt
+*.key
+
+# =====================================================
+# COLLAB NOTES
+# =====================================================
+# Keep sample env for onboarding
+!/.env.example
+!/server/.env.example
+!/client/.env.example
