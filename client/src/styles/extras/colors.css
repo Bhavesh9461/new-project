@@ -1,0 +1,32 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #000;       /* main background */
+  --bg-secondary: #101010;     /* chat panels, cards */
+  --bg-accent: #2A2A2A;        /* hovered items or selected messages */
+
+  /* Text */
+  --text-primary: #D8DBE2;     /* main text */
+  --text-secondary: #A0A0A0;   /* secondary text, timestamps */
+  --text-accent: #FFD700;      /* highlights, mentions */
+
+  /* Borders & Dividers */
+  --border-color: #333333;
+
+  /* Buttons & Interactive */
+  --btn-primary: #3B82F6;      /* main buttons */
+  --btn-hover: #2563EB;        /* hover state */
+  --btn-disabled: #555555;     
+
+  /* Chat Bubbles */
+  --msg-sent-bg: #3B82F6;      /* sender bubble */
+  --msg-sent-text: #FFFFFF;
+  --msg-recv-bg: #2A2A2A;      /* receiver bubble */
+  --msg-recv-text: #E0E0E0;
+
+  /* ScrollBars */
+  --scrollbar-bg: #1E1E1E;
+  --scrollbar-thumb: #555555;
+
+  /* Accent / Highlights */
+  --accent-color: #FF4500;     /* mentions, notifications */
+}

@@ -1,0 +1,29 @@
+@import url("./extras/colors.css");
+@import url("./extras/basicUtils.css");
+@import url("./fonts/fonts.css");
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+main .left-main {
+  width: 80%;
+  background: var(--bg-primary);
+}
+main .left-main nav {
+  background-color: var(--bg-secondary);
+}
+main .left-main nav a {
+  text-decoration: none;
+  color: var(--text-primary);
+  text-transform: capitalize;
+}
+main .right-main {
+  width: calc(100% - 80%);
+  background-color: var(--bg-secondary);
+}/*# sourceMappingURL=main.css.map */
