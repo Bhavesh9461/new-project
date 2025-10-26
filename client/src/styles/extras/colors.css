@@ -1,11 +1,11 @@
 :root {
   /* Backgrounds */
   --bg-primary: #000;       /* main background */
-  --bg-secondary: #1E1E1E;     /* chat panels, cards */
+  --bg-secondary: #101010;     /* chat panels, cards */
   --bg-accent: #2A2A2A;        /* hovered items or selected messages */
 
   /* Text */
-  --text-primary: #E0E0E0;     /* main text */
+  --text-primary: #D8DBE2;     /* main text */
   --text-secondary: #A0A0A0;   /* secondary text, timestamps */
   --text-accent: #FFD700;      /* highlights, mentions */
 

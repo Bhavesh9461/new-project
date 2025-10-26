@@ -1,12 +1,6 @@
 @import url("./extras/colors.css");
 @import url("./extras/basicUtils.css");
 @import url("./fonts/fonts.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html,
 body {
   width: 100%;
@@ -19,7 +13,17 @@ main {
 }
 main .left-main {
   width: 80%;
+  background: var(--bg-primary);
+}
+main .left-main nav {
+  background-color: var(--bg-secondary);
+}
+main .left-main nav a {
+  text-decoration: none;
+  color: var(--text-primary);
+  text-transform: capitalize;
 }
 main .right-main {
-  width: calc(100% -80%);
+  width: calc(100% - 80%);
+  background-color: var(--bg-secondary);
 }/*# sourceMappingURL=main.css.map */

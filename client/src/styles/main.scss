@@ -1,11 +1,7 @@
 @import url("./extras/colors.css");
 @import url("./extras/basicUtils.css");
 @import url("./fonts/fonts.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 $left-main-w: 80%;
 
@@ -16,12 +12,22 @@ body {
 }
 main {
   background: var(--bg-primary);
- color: var(--text-primary);
+  color: var(--text-primary);
   .left-main {
     width: $left-main-w;
-    // background: #111;
+    background: var(--bg-primary);
+
+    nav {
+      background-color: var(--bg-secondary);
+      a {
+        text-decoration: none;
+        color: var(--text-primary);
+        text-transform: capitalize;
+      }
+    }
   }
   .right-main {
-    width: calc(100%-#{$left-main-w});
+    width: calc(100% - #{$left-main-w});
+    background-color: var(--bg-secondary);
   }
 }

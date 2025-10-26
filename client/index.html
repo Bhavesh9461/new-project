@@ -5,16 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-  <main class="w-100% h-100vh">
-    <section class="left-main">
-      <nav class="w-100 bg-accent">
-        <div class="nav-logo"><h1>Logo</h1></div>
+  <main class="w-full h-screen p-5 flex">
+    <section class="left-main px-5">
+      <nav class="w-full flex justify-between items-center px-5 py-3 text-sm rounded-full">
+        <div class="nav-logo "><h1>Logo</h1></div>
+        <div class="nav-links flex items-center gap-4 f-light">
+          <a href="">features</a>
+          <a href="">help</a>
+          <a href="">account</a>
+        </div>
       </nav>
+      <div class="main">
+      </div>
     </section>
-    <section class="right-main"></section>
+    <section class="right-main h-full rounded-lg"></section>
   </main>
-  <script src="./src/main.js"></script>
+  <script src="./src/main.js"></script> 
 </body>
 </html>
