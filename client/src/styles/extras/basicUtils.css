@@ -65,3 +65,15 @@
 .justify-center { justify-content: center; }
 .items-center { align-items: center; }
 .flex-wrap { flex-wrap: wrap; }
+
+
+
+.f-thin       { font-weight: 100; } /* hairline / thin text */
+.f-extralight { font-weight: 200; } /* extra light text */
+.f-light      { font-weight: 300; } /* light text */
+.f-normal     { font-weight: 400; } /* normal / default text */
+.f-medium     { font-weight: 500; } /* medium text */
+.f-semibold   { font-weight: 600; } /* semi-bold text */
+.f-bold       { font-weight: 700; } /* bold text */
+.f-extrabold  { font-weight: 800; } /* extra-bold text */
+.f-black      { font-weight: 900; } /* black / heavy text */
